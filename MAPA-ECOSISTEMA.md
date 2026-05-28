@@ -1,0 +1,3 @@
+# Redirect
+
+**Canônico:** [`00-ROTEAMENTO/MAPA-ECOSSISTEMA.md`](./00-ROTEAMENTO/MAPA-ECOSSISTEMA.md)

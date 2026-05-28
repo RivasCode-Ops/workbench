@@ -1,0 +1,10 @@
+{
+  "shell": {
+    "enabled": true
+  },
+  "files": {
+    "read": ["**/*"],
+    "write": ["**/*.md", ".claude/**"],
+    "ignore": [".git/**", "node_modules/**"]
+  }
+}
