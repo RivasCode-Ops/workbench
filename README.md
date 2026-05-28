@@ -12,6 +12,17 @@ Transformar ideias, demandas, bugs ou projetos existentes em saídas estruturada
 4. Valide com `checklist.md`.
 5. Gere a entrega conforme `saida-esperada.md`.
 
+## Como usar com Claude e Cursor
+
+### Com Claude Code
+Abra o repositorio no Claude Code. O projeto usa `CLAUDE.md` e a pasta `.claude/` como camada operacional. Sempre inicie por `00-ROTEAMENTO` ou use os comandos do projeto para classificar a demanda, escolher a etapa correta e registrar continuidade.
+
+### Com Cursor
+Abra o repositorio no Cursor e use os arquivos `.md` como roteiro operacional. Sempre leia `README.md`, `CAMINHOS.md`, `CONTEXT.md` e a etapa ativa antes de pedir execucao. Quando necessario, use `prompt.md` da etapa no chat/composer e peca resposta seguindo exatamente aquela estrutura.
+
+### Regra geral
+Se a demanda se desviar ou abrir sub-demandas, registrar em `STATUS.md`, atualizar `HANDOFF.md` e usar `corrigir-rota` ou `regenerar-rota` antes de seguir.
+
 ## Estrutura principal
 - `00-ROTEAMENTO`: triagem inicial e definição do caminho
 - `10-DESCOBERTA-E-MODELAGEM`: entendimento, escopo, requisitos e modelo
