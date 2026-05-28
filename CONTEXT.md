@@ -2,6 +2,7 @@
 
 ## Estado atual
 Este repositorio esta sendo criado como base canonica do metodo.
+Workspace canonico local: `c:\_PROJETOS\workbench`.
 
 ## Objetivo imediato
 Organizar a espinha dorsal do sistema neste PC e no GitHub para depois unir com uma workstation antiga.
