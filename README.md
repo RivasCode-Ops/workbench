@@ -52,6 +52,29 @@ Quando o objetivo for evoluir o proprio `workbench` (e nao um app especifico), u
 - Curto: `.claude/commands/explorar-repos-workbench.curto.md`
 - Historico das rodadas: `HISTORICO-EXPLORACAO-REPOS.md`
 
+## Oferta do metodo
+
+O `workbench` e um metodo operacional para transformar demanda em entrega com IA, com foco em clareza, continuidade e padronizacao.
+
+Para quem serve:
+- profissionais independentes que executam multiplos projetos com IA;
+- equipes pequenas que precisam de processo leve e rastreavel;
+- operacoes que exigem handoff consistente entre sessoes, agentes e maquinas.
+
+O que entrega:
+- roteamento de demanda por etapa (`00` a `90`);
+- artefatos padrao por fase (`prompt`, `checklist`, `saida-esperada`);
+- governanca ativa (`CONTEXT`, `STATUS`, `HANDOFF`, `RELATORIO-ATUAL`);
+- camada operacional para IA com comandos e regras reutilizaveis.
+
+Como adotar em 7 dias (resumo):
+1. Dia 1: mapear demanda atual e iniciar por `00-ROTEAMENTO`.
+2. Dia 2-3: padronizar etapa ativa com `prompt/checklist/saida-esperada`.
+3. Dia 4: configurar governanca minima (`CONTEXT`, `STATUS`, `HANDOFF`).
+4. Dia 5: ativar comandos `.claude/commands` mais usados.
+5. Dia 6: registrar decisoes em `DECISOES.md` e riscos em `RISCOS.md`.
+6. Dia 7: revisar fluxo completo e ajustar lacunas no metodo.
+
 ## Estrutura principal
 - `00-ROTEAMENTO`: triagem inicial e definição do caminho
 - `10-DESCOBERTA-E-MODELAGEM`: entendimento, escopo, requisitos e modelo
