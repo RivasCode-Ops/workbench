@@ -44,6 +44,14 @@ Quando precisar aprender com produtos parecidos (especialmente os mais estrelado
 - Piloto Quadro Negro: `10-DESCOBERTA-E-MODELAGEM/benchmark-github.quadro-negro.md`
 - Comando operacional: `.claude/commands/analisar-benchmarks-github.md`
 
+## Exploracao de repos para evoluir o metodo
+
+Quando o objetivo for evoluir o proprio `workbench` (e nao um app especifico), use os comandos de exploracao focados em workflow/documentacao/automacao:
+
+- Completo: `.claude/commands/explorar-repos-workbench.md`
+- Curto: `.claude/commands/explorar-repos-workbench.curto.md`
+- Historico das rodadas: `HISTORICO-EXPLORACAO-REPOS.md`
+
 ## Estrutura principal
 - `00-ROTEAMENTO`: triagem inicial e definição do caminho
 - `10-DESCOBERTA-E-MODELAGEM`: entendimento, escopo, requisitos e modelo
