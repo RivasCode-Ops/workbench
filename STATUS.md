@@ -13,3 +13,24 @@ Com isso, o workspace passa a operar como nucleo canonico do metodo, apto para v
 - Sub-demandas abertas:
   - `[ID] [nome]` - tipo: `bloqueador | paralelo` - status: `em andamento | concluido`
 - Condicao de retorno ao foco principal: definir
+
+## Excecoes recentes
+
+Use esta secao para registrar casos em que foi necessario desviar do fluxo padrao.
+
+Formato sugerido por entrada:
+- Data:
+- Demanda:
+- Etapa em que ocorreu:
+- Desvio feito (o que foi diferente do metodo):
+- Motivo do desvio:
+- Resultado (funcionou? gerou problema?):
+- Decisao:
+  - pontual (nao vira regra), ou
+  - estrutural (deve ser incorporado ao metodo em workflow/checklist/prompt)
+- Acao de metodo:
+  - [ ] Atualizar workflow.md
+  - [ ] Atualizar CAMINHOS.md
+  - [ ] Atualizar prompt.md da etapa
+  - [ ] Atualizar checklist.md
+  - [ ] Nenhuma (apenas registro historico)

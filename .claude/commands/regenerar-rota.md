@@ -21,6 +21,10 @@ Tarefas:
 6. Propor a proxima acao imediata.
 7. Indicar o que deve ser atualizado em `STATUS.md` e `HANDOFF.md`.
 
+Tarefas adicionais:
+- Verificar "Excecoes recentes" em `STATUS.md`.
+- Indicar quais excecoes devem ser promovidas a regra do metodo (atualizando `workflow`, `caminhos` ou `checklists`).
+
 Formato de saida:
 - Demanda principal:
 - Etapa atual:
