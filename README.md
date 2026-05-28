@@ -23,6 +23,19 @@ Abra o repositorio no Cursor e use os arquivos `.md` como roteiro operacional. S
 ### Regra geral
 Se a demanda se desviar ou abrir sub-demandas, registrar em `STATUS.md`, atualizar `HANDOFF.md` e usar `corrigir-rota` ou `regenerar-rota` antes de seguir.
 
+## Relatorio operacional
+
+Use `RELATORIO-ATUAL.md` como painel curto do momento para responder duas perguntas:
+- como esta o trabalho agora;
+- o que vai ser feito em seguida.
+
+Quando usar:
+- inicio de sessao para retomada rapida;
+- antes de handoff entre sessoes/maquinas;
+- quando precisar de visao executiva sem ler todo o historico.
+
+Com Claude/Cursor, voce pode usar o comando `gerar-relatorio` para regenerar esse arquivo a partir de `CONTEXT.md`, `HANDOFF.md`, `STATUS.md` e da etapa ativa.
+
 ## Estrutura principal
 - `00-ROTEAMENTO`: triagem inicial e definição do caminho
 - `10-DESCOBERTA-E-MODELAGEM`: entendimento, escopo, requisitos e modelo
