@@ -1,72 +1,56 @@
-# RISCOS
+# RISCOS DO MÉTODO E PROJETOS
 
-Registro dos riscos ativos do metodo e de sua operacao no `workbench`.
+Este documento mantém um registro dos riscos conhecidos,
+tanto do método (`workbench`) quanto dos projetos que usam
+este método (ex.: Quadro Negro, CAI, COD, etc.).
 
 Objetivo:
-- antecipar problemas antes de virar incidente;
-- manter mitigacoes explicitas;
-- apoiar priorizacao de melhorias no metodo.
+- deixar claros os principais riscos;
+- pensar em prevenção e mitigação;
+- evitar surpresas evitáveis no uso do método e dos projetos.
 
 ---
 
 ## Como usar
 
-Atualizar este arquivo quando:
-- um risco novo for identificado;
-- a severidade/probabilidade mudar;
-- uma mitigacao for aplicada;
-- um risco for encerrado.
+Para cada risco relevante:
 
-Classificacao sugerida:
-- Probabilidade: baixa | media | alta
-- Impacto: baixo | medio | alto
-- Status: aberto | mitigando | monitorando | encerrado
-
----
-
-## Template de risco
-
-### [RISK-AAAA-MM-DD-XX] Titulo curto do risco
-
-- Data:
-- Categoria: processo | documentacao | continuidade | qualidade | integracao | outro
-- Descricao:
-- Probabilidade: baixa | media | alta
-- Impacto: baixo | medio | alto
-- Status: aberto | mitigando | monitorando | encerrado
-- Sinal de alerta:
-  - como perceber cedo que o risco esta acontecendo
-- Mitigacao planejada:
-  - acao 1
-  - acao 2
-- Dono:
-- Prazo de revisao:
-- Referencias:
-  - arquivos afetados:
-  - commit/PR (se houver):
+1. Criar uma entrada na tabela principal.
+2. Atualizar o status quando o risco mudar de situação
+   (de "potencial" para "ocorrido", por exemplo).
+3. Se um risco estiver ligado a uma decisão específica,
+   vincular à entrada correspondente em `DECISOES.md`.
+4. Se um risco gerar ação concreta, registrar também
+   em `STATUS.md` e, se aplicável, no projeto afetado.
 
 ---
 
-## Riscos ativos
+## Tabela de riscos
 
-### [RISK-2026-05-28-01] Desvio de fluxo sem registro de retorno
+| ID | Data | Área | Descrição do risco | Probabilidade | Impacto | Plano de mitigação | Status | Relacionado a |
+|----|------|------|--------------------|---------------|---------|--------------------|--------|---------------|
+| R-001 | AAAA-MM-DD | Método | [ex.: método ficar complexo demais para novos usuários] | baixa/média/alta | baixo/médio/alto | [ex.: manter ONBOARDING simples, revisar anualmente] | potencial | DECISOES.md #[ID] |
+| R-002 | AAAA-MM-DD | Projeto: [nome] | [descrição] | [ ] | [ ] | [ ] | [potencial/ocorrido/encerrado] | [link/nota] |
 
-- Data: 2026-05-28
-- Categoria: processo
-- Descricao:
-  - durante execucao, sub-demandas podem desviar o foco principal sem registro claro de condicao de retorno.
-- Probabilidade: media
-- Impacto: alto
-- Status: mitigando
-- Sinal de alerta:
-  - `STATUS.md` sem foco atual definido ou com sub-demandas sem tipo/status.
-- Mitigacao planejada:
-  - usar `corrigir-rota` e `regenerar-rota` sempre que houver desvio.
-  - revisar `STATUS.md` e `HANDOFF.md` ao fim de cada sessao.
-- Dono:
-  - operacao do metodo
-- Prazo de revisao:
-  - semanal
-- Referencias:
-  - arquivos afetados: `STATUS.md`, `HANDOFF.md`, `.claude/rules/workflow.md`
-  - commit/PR (se houver): `64ae2d4`, `417157e`
+Legenda de campos:
+- **Área**: Método | Projeto: [nome] | Outro.
+- **Probabilidade**: baixa | média | alta.
+- **Impacto**: baixo | médio | alto.
+- **Plano de mitigação**: o que será feito para reduzir a chance ou impacto.
+- **Status**:
+  - potencial – ainda não ocorreu;
+  - ocorrido – já aconteceu pelo menos uma vez;
+  - encerrado – deixou de ser risco relevante.
+
+---
+
+## Observações
+
+- Riscos recorrentes que se materializarem devem gerar
+  decisões em `DECISOES.md` e, se necessário, ajustes em:
+  - workflow.md,
+  - CHECKLIST-METODO.md,
+  - prompts das etapas.
+- Projetos grandes podem ter um RISCOS.md próprio,
+  mas este arquivo continua como visão central
+  dos riscos do método e dos principais projetos.

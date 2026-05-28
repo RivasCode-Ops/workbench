@@ -54,26 +54,50 @@ Quando o objetivo for evoluir o proprio `workbench` (e nao um app especifico), u
 
 ## Oferta do metodo
 
-O `workbench` e um metodo operacional para transformar demanda em entrega com IA, com foco em clareza, continuidade e padronizacao.
+### Que problema este método resolve
 
-Para quem serve:
-- profissionais independentes que executam multiplos projetos com IA;
-- equipes pequenas que precisam de processo leve e rastreavel;
-- operacoes que exigem handoff consistente entre sessoes, agentes e maquinas.
+- Evitar que ideias e demandas fiquem soltas, sem fluxo claro.
+- Reduzir retrabalho por falta de definição, documentação e handoff.
+- Padronizar como a IA (Claude/Cursor) é usada nos projetos,
+  evitando respostas soltas e decisões sem rastreabilidade.
+- Facilitar revisão, diagnóstico e correção sem depender da memória
+  de quem iniciou o projeto.
 
-O que entrega:
-- roteamento de demanda por etapa (`00` a `90`);
-- artefatos padrao por fase (`prompt`, `checklist`, `saida-esperada`);
-- governanca ativa (`CONTEXT`, `STATUS`, `HANDOFF`, `RELATORIO-ATUAL`);
-- camada operacional para IA com comandos e regras reutilizaveis.
+### Para quem serve
 
-Como adotar em 7 dias (resumo):
-1. Dia 1: mapear demanda atual e iniciar por `00-ROTEAMENTO`.
-2. Dia 2-3: padronizar etapa ativa com `prompt/checklist/saida-esperada`.
-3. Dia 4: configurar governanca minima (`CONTEXT`, `STATUS`, `HANDOFF`).
-4. Dia 5: ativar comandos `.claude/commands` mais usados.
-5. Dia 6: registrar decisoes em `DECISOES.md` e riscos em `RISCOS.md`.
-6. Dia 7: revisar fluxo completo e ajustar lacunas no metodo.
+- Para quem trabalha com vários projetos ao mesmo tempo
+  e precisa de uma forma única de organizar ideias, tarefas,
+  decisões e riscos.
+- Para quem usa IA (Claude, Cursor, etc.) e quer sair do modo
+  “chat solto” e ir para um modo de operação mais previsível.
+- Para quem pensa em transformar seu processo em produto
+  (método vendável, franquia de operação, kit de prompts, etc.).
+
+### O que entrega na prática
+
+- Um **workbench canônico** com:
+  - etapas numeradas (00–50 + 90),
+  - prompts, checklists e saídas esperadas por etapa,
+  - governança (CONTEXT, HANDOFF, STATUS, RELATORIO-ATUAL,
+    DECISOES, RISCOS, HISTORICO-EXPLORACAO).
+- Uma camada operacional para IA (`.claude/`) com:
+  - regras de workflow,
+  - comandos reutilizáveis,
+  - skills e agents especializados.
+- Um modelo reutilizável para aplicar em qualquer projeto
+  (ex.: Quadro Negro, CAI, COD, etc.).
+
+### Como adotar em poucos passos
+
+1. Clonar o repositório `workbench`.
+2. Ler `ONBOARDING.md` (10 minutos).
+3. Registrar a primeira demanda real em `STATUS.md` e `RELATORIO-ATUAL.md`.
+4. Passar essa demanda por `00-ROTEAMENTO` e seguir a etapa indicada.
+5. Sempre que algo importante for decidido:
+   - registrar em `DECISOES.md`,
+   - atualizar checklists/prompts se necessário.
+6. Manter `RISCOS.md` e o CHECKLIST-METODO em dia
+   para garantir que o método continue saudável.
 
 ## Estrutura principal
 - `00-ROTEAMENTO`: triagem inicial e definição do caminho
