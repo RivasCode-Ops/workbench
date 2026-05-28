@@ -36,6 +36,14 @@ Quando usar:
 
 Com Claude/Cursor, voce pode usar o comando `gerar-relatorio` para regenerar esse arquivo a partir de `CONTEXT.md`, `HANDOFF.md`, `STATUS.md` e da etapa ativa.
 
+## Benchmark de projetos GitHub
+
+Quando precisar aprender com produtos parecidos (especialmente os mais estrelados), use benchmarking na etapa `10-DESCOBERTA-E-MODELAGEM`.
+
+- Template generico: `10-DESCOBERTA-E-MODELAGEM/benchmark-github.template.md`
+- Piloto Quadro Negro: `10-DESCOBERTA-E-MODELAGEM/benchmark-github.quadro-negro.md`
+- Comando operacional: `.claude/commands/analisar-benchmarks-github.md`
+
 ## Estrutura principal
 - `00-ROTEAMENTO`: triagem inicial e definição do caminho
 - `10-DESCOBERTA-E-MODELAGEM`: entendimento, escopo, requisitos e modelo
