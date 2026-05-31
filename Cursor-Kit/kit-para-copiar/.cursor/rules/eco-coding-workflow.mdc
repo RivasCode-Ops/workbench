@@ -1,0 +1,34 @@
+---
+description: ECO — workflow de implementação no Cursor (D00–D02 e revisão)
+alwaysApply: true
+---
+
+# Workflow de coding (workbench + Cursor)
+
+## Escolha do prompt (workbench)
+
+| Situação | Arquivo no workbench |
+|----------|----------------------|
+| Início de sessão | `20-ENTREGA-DE-PRODUTO/04-coding-diario/d00-contexto-sessao.md` |
+| Nova feature | `…/d01-feature.md` |
+| Bug / correção | `…/d02-bugfix.md` |
+| Antes de merge | `Projeto Novo/D09-COMMIT-PR.md`, `D10-PRE-MERGE.md` |
+
+Caminho base no PC: `c:\_PROJETOS\workbench\`.
+
+## No Composer / Agent
+
+1. Cole o conteúdo do D00 (ou D01/D02) e preencha contexto, repo e restrições.
+2. Peça plano em bullets **antes** de gerar código.
+3. Implemente só os arquivos do plano aprovado.
+4. Rode testes ou comandos de verificação que o projeto já usa (`npm test`, `npm run build`, etc.).
+
+## Qualidade mínima
+
+- Tipos e imports consistentes com o projeto.
+- Sem `console.log` de debug deixado no diff final, salvo pedido.
+- Atualizar README ou docs do app só se a mudança exigir.
+
+## Integração Max
+
+Se o escopo tocou muitos arquivos ou segurança, sugira auditoria em `http://127.0.0.1:3847/` com o URL do repo GitHub.

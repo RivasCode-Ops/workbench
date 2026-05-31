@@ -4,6 +4,11 @@
 > workbench = **governança** (esta pasta). Análise técnica de repo = **Max** (`:3847`). Definição = **dLogica**. Pesquisa web = **Cortana** (opcional).  
 > **Repos open source:** [docs/GITHUB-INSPIRACOES.md](docs/GITHUB-INSPIRACOES.md) · índice: [docs/GITHUB-INSPIRACOES-ECOSSISTEMA.md](docs/GITHUB-INSPIRACOES-ECOSSISTEMA.md)
 
+## Cursor (rules no repo)
+
+- Kit genérico ECO: [`Cursor-Kit/README.md`](Cursor-Kit/README.md) — copiar `.cursor/rules` para qualquer app
+- Exemplo por produto: [`GeoGrowth-Cursor/README.md`](GeoGrowth-Cursor/README.md)
+
 ## Se eu tenho...
 - uma ideia solta -> `00-ROTEAMENTO`
 - uma demanda nova com potencial de produto -> `10-DESCOBERTA-E-MODELAGEM`

@@ -1,0 +1,35 @@
+---
+description: ECO — disciplina de projeto, escopo e alinhamento ao workbench
+alwaysApply: true
+---
+
+# Ecossistema ECO — regras gerais do repositório
+
+## Antes de codar
+
+1. Se a demanda veio do **EcoMaestro**, respeite a ordem: dLogica → workbench → Cursor → Max.
+2. Leia (se existirem) `README.md`, `CONTEXT.md` ou handoff do workbench na pasta do projeto.
+3. Para tarefa do dia, use o prompt **D00** do workbench (`04-coding-diario/d00-contexto-sessao.md`) no chat antes de editar arquivos.
+
+## Escopo
+
+- Uma tarefa ou feature por sessão; liste arquivos que vai criar ou alterar.
+- Não refatorar o repositório inteiro sem pedido explícito.
+- Não adicionar dependências pesadas sem justificar em uma linha.
+- Preferir o menor diff que atende o requisito.
+
+## Estrutura
+
+- Seguir a organização já usada neste repo (pastas, naming, imports).
+- Código compartilhado em módulos comuns — evitar duplicar lógica entre features.
+- Comentários só para regra de negócio não óbvia ou integração externa.
+
+## O que não fazer
+
+- Não misturar governança (decisão de produto) com implementação — decisão fica no workbench.
+- Não copiar regras de outro app (ex.: GeoGrowth) se o stack deste repo for diferente.
+- Não commitar segredos (`.env`, tokens, chaves).
+
+## Entrega
+
+- Ao encerrar: resumo do que mudou, como testar, e o que falta para o **Max** auditar, se aplicável.
