@@ -1,0 +1,41 @@
+---
+description: ECO — continuidade de demandas (EcoMaestro, histórico, não regredir)
+alwaysApply: true
+---
+
+# Continuidade de demandas no ecossistema
+
+## Antes de mudar código (qualquer app em `_PROJETOS`)
+
+1. **Projeto ativo** — confirme a pasta correta (`c:\_PROJETOS\<Nome>`). Não misture FREEDOM com XAXA, etc.
+2. **Demandas anteriores** — se o trabalho passou pelo EcoMaestro (`:8771`):
+   - UI: bloco *Demandas deste projeto* ou lista em `data/demands/*.json` no repo EcoMaestro
+   - API: `GET http://127.0.0.1:8771/api/demands?project=<PastaDoApp>`
+3. **Documentação do repo** — nesta ordem, o que existir: `AGENTS.md` → `README.md` → `docs/README.md` → `docs/contexto-projeto.md`
+4. **Não regredir** — se uma correção já foi feita em commit anterior ou demanda `completed`, não desfazer sem motivo explícito do usuário.
+
+## Ao receber pedido vago (“arrumar o eco”, “como antes”, “ainda não funciona”)
+
+1. Liste o que **já foi tentado** (últimas 3–5 demandas do mesmo `project_folder`).
+2. Separe: (a) bug de UI/API EcoMaestro, (b) fluxo do condomínio, (c) código do app produto.
+3. Proponha **um** próximo passo verificável (comando, URL, arquivo) antes de refatorar em massa.
+
+## EcoMaestro — regras de ouro
+
+| Ação | Onde |
+|------|------|
+| Escolher app | Lista *Seus projetos* — genérico para todas as pastas |
+| Executar plano | Botão **Trabalhar neste projeto** (não só selecionar na lista) |
+| Documentação | **Abrir documentação** — API resolve `AGENTS.md` / `README` por pasta |
+| Histórico | `data/demands/` + filtro por projeto |
+
+## Entrega que tranquiliza o usuário
+
+Ao encerrar a sessão, responda com:
+
+- **O que estava quebrado** (1 frase)
+- **O que mudou** (arquivos ou commits)
+- **Como validar** (URL `:8771`, botão, contagem de pastas, teste manual)
+- **Demandas relacionadas** — ids ou títulos das entradas em `data/demands/` se criou/alterou alguma
+
+Prompt longo do workbench: `c:\_PROJETOS\EcoMaestro\docs\PROMPT-CONTINUIDADE-DEMANDAS.md`

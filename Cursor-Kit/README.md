@@ -21,7 +21,7 @@ INSTALAR-NO-REPO.bat c:\_PROJETOS\MeuApp
 
 Copie `kit-para-copiar/.cursor/` para a **raiz do repositório** do app.
 
-Confirme no Cursor: **Settings → Rules** — regras `eco-*` ativas.
+Confirme no Cursor: **Settings → Rules** — regras `eco-*` ativas (inclui `eco-demandas-continuidade` para histórico EcoMaestro).
 
 ## Fluxo com o ecossistema (4 portas)
 
