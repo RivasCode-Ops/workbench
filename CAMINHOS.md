@@ -1,5 +1,9 @@
 # CAMINHOS
 
+> **Ecossistema (4 portas, sem confundir):** `c:\_PROJETOS\ecossistema.html`  
+> workbench = **governança** (esta pasta). Análise técnica de repo = **Max** (`:3847`). Definição = **dLogica**. Pesquisa web = **Cortana** (opcional).  
+> **Repos open source:** [docs/GITHUB-INSPIRACOES.md](docs/GITHUB-INSPIRACOES.md) · índice: [docs/GITHUB-INSPIRACOES-ECOSSISTEMA.md](docs/GITHUB-INSPIRACOES-ECOSSISTEMA.md)
+
 ## Se eu tenho...
 - uma ideia solta -> `00-ROTEAMENTO`
 - uma demanda nova com potencial de produto -> `10-DESCOBERTA-E-MODELAGEM`
