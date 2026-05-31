@@ -78,6 +78,43 @@
 
 ---
 
+## EcoMaestro (orquestrador do condomínio)
+
+| | |
+|---|---|
+| **Projeto** | [RivasCode-Ops/EcoMaestro](https://github.com/RivasCode-Ops/EcoMaestro) — porta `8770` |
+| **Pergunta** | *Quem entrega esta demanda?* |
+| **Entrada** | Nome do projeto + descrição **ou** link (GitHub / pasta / URL local) |
+
+Não substitui dLogica, workbench, Max nem Cortana — **roteia** a ordem de entrega.
+
+---
+
+## Complementos locais (fora do fluxo de 4 portas)
+
+Apps na pasta `_PROJETOS` que **não são moradores do eco**, mas complementam ações (ex.: FREEDOM V3):
+
+| App | Complementa | Repo GitHub de referência |
+|-----|-------------|---------------------------|
+| **Recuperação Financeira** | Saúde financeira / dívidas | — |
+| **CONSORCIO** | Open Finance, patrimônio real | — |
+| **Simulador Troca Moto** | Custo de gasto em bem durável | [wenfire](https://github.com/basnijholt/wenfire) |
+| **ARBILOCAL** | Decisão comercial | [RivasCode-Ops/ARBILOCAL](https://github.com/RivasCode-Ops/ARBILOCAL) |
+| **FREEDOM** | FIRE (produto, não ferramenta de fluxo) | ver [FREEDOM/docs/GITHUB-INSPIRACOES.md](https://github.com/RivasCode-Ops/FREEDOM/blob/main/docs/GITHUB-INSPIRACOES.md) |
+
+### Referências externas — vigência (mai/2026)
+
+| Repo | Status | Uso |
+|------|--------|-----|
+| [fire-tools](https://github.com/mbianchidev/fire-tools) | **Ativo** | Preferir para histórico / CSV |
+| [wenfire](https://github.com/basnijholt/wenfire) | **Ativo** | Custo de gasto, narrativa |
+| [app-fire-calculator](https://github.com/jamesmontemagno/app-fire-calculator) | Estável | Lean / Barista |
+| [matijaoe/fare](https://github.com/matijaoe/fare) | **Lento** (~1 ano sem push) | Só inspirar UX |
+| [wealthyparrot/fire-calculator](https://github.com/wealthyparrot/fire-calculator) | **Lento** | Só fórmulas pontuais |
+| [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | Ativo (ex-Perplexica) | Cortana pós-V1 |
+
+---
+
 ## Fluxo local (pasta `_PROJETOS`)
 
-No PC de desenvolvimento: `ecossistema.html`, `ECOSSISTEMA.md` e `guia-ecossistema-analise.md` na raiz `c:\_PROJETOS` (não versionados neste repo).
+No PC: `Abrir-EcoMaestro.bat` → `ecossistema.html` → `ECOSSISTEMA.md` / `guia-ecossistema-analise.md` (raiz não versionada no GitHub).
